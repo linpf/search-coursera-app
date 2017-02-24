@@ -1,4 +1,5 @@
 class Coursera
+
   include HTTParty
 
   default_options.update(verify: false) # Turn off SSL verification
